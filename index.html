@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kamma Seva Samithi Dallas - Garden Party Invitation</title> <!-- Updated Title -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body, html {
+            height: 100%;
+            font-family: 'Georgia', serif;
+            background-color: #ffd700; /* Yellow background */
+            display: flex;
+            flex-direction: column; /* Changed to column for header placement */
+            align-items: center; /* Center align the content */
+        }
+
+        header {
+            width: 100%;
+            background-color: #ffd700; /* Yellow header */
+            color: #4b3621; /* Dark brown text */
+            text-align: center; /* Center align text */
+            padding: 20px 0;
+            font-size: 32px; /* Header font size */
+            margin-bottom: 20px; /* Space below the header */
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            width: 80%;
+            max-width: 1200px;
+            border: 5px solid #c2b280; /* Gold-ish border */
+            background-color: white;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px; /* Rounded corners */
+            overflow: hidden; /* Ensures inner elements respect border radius */
+        }
+
+        .photo {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .photo img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .content {
+            width: 50%;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-color: white;
+        }
+
+        h1 {
+            font-size: 36px;
+            color: #4b3621; /* Earthy brown color */
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #4b3621;
+            margin-bottom: 20px;
+        }
+
+        .register-btn {
+            background-color: #4b3621; /* Dark brown button */
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            align-self: flex-start;
+            text-decoration: none; /* Remove underline */
+            display: inline-block; /* Allow padding */
+            text-align: center; /* Center text in button */
+        }
+
+        .register-btn:hover {
+            background-color: #3a2c1a; /* Darker brown on hover */
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                width: 90%;
+            }
+
+            .photo, .content {
+                width: 100%;
+            }
+
+            h1 {
+                font-size: 28px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+
+            .register-btn {
+                font-size: 16px;
+                padding: 12px 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Kamma Seva Samithi Dallas
+    </header>
+    
+    <div class="container">
+        <!-- Left side with the image -->
+        <div class="photo">
+            <img src="https://imgur.com/JM4ktJV.jpg" alt="Garden Party">
+        </div>
+
+        <!-- Right side with text and button -->
+        <div class="content">
+            <h1>Vanabhojanalu Invitation</h1>
+            <p>Join us and Celebrate with friends and family.</p>
+            <p class="telugu">వన భోజనాలకు ఆహ్వానం</p> <!-- Example Telugu text -->
+            <p><strong>Date:</strong> TBD </p>
+            <p><strong>Time:</strong> TBD </p>
+            <p><strong>Location:</strong> TBD </p>
+            <a href="http://survey-janam.s3-website-us-east-1.amazonaws.com/" class="register-btn">Register Now</a> <!-- Updated Button -->
+        </div>
+    </div>
+</body>
+</html>
